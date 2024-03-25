@@ -1,2 +1,6 @@
 # afghanistan-beauty
-Static Front-end Website about Afghanistan
+This is a Static Front-end Website about Afghanistan.
+
+
+# Home
+
