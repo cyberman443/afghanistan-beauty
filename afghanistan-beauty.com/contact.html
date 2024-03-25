@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Afg Beauty</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' href='bootstrap-5.0.2-dist/css/bootstrap.min.css'>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="/fontawesome-free-6.1.1-web/css/all.min.css">
+
+
+</head>
+<body style="overflow-x: hidden;">
+
+    <div class="p1 contact-p1 text-white">
+        <nav class="navbar navbar-expand-md navbar-dark px-3 px-lg-5 d-flex justify-content-between align-items-center">
+            <a class="navbar-brand" href="index.html">Afg Beauty</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse " id="collapsibleNavbar">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="gallery.html">Gallery</a></li>
+                    <li class="nav-item"><a class="nav-link" href="videos.html">Videos</a></li>
+                    <li class="nav-item"><a class="nav-link" href="topics.html">Topics</a></li>
+                    <li class="nav-item"><a class="nav-link" href="news.html">News</a></li>
+                    <li class="nav-item"><a class="nav-link" href="date.html">Date</a></li>
+                    <li class="nav-item"><a class="nav-link" href="contact.html">Contact Us</a></li>
+                </ul>
+            </div>
+        </nav>
+        <div class="contact-main mx-auto d-flex flex-column justify-content-center align-items-center" data-bs-ride="carousel">
+            <div class="main d-flex flex-column flex-lg-row justify-content-between align-items-center">
+                <div class="aboutUs d-flex flex-column justify-content-center">
+                    <div class="d-flex">
+                        <img src="images/ab.jpg" class="aboutImg rounded-circle d-inline-block border-dark border border-3">
+                        <span class="name fw-bold ms-3 d-inline-block mt-auto">Mr.BDK</span>
+                    </div>
+                    <p class="about mt-3 ">
+                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Labore, asperiores. Saepe unde similique,
+                        facilis quam nemo non accusamus, distinctio commodi, aperiam eum reprehenderit culpa iste quo! Ut enim tempore magni.
+                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Labore, asperiores. Saepe unde similique,
+                        facilis quam nemo non accusamus, distinctio commodi, aperiam eum reprehenderit culpa iste quo! Ut enim tempore magni.
+                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Labore, asperiores. Saepe unde similique,
+                        facilis quam nemo non accusamus, distinctio commodi, aperiam eum reprehenderit culpa iste quo! Ut enim tempore magni.
+                    </p>
+                    <div class="row ps-2 d-flex">
+                        <div class="social-media-icon">
+                            <i class="fab fa-facebook-f"></i>
+                        </div>
+                        <div class="social-media-icon">
+                            <i class="fab fa-instagram"></i>
+                        </div>
+                        <div class="social-media-icon">
+                            <i class="fab fa-twitter" ></i>
+                        </div>
+                        <div class="social-media-icon">
+                            <i class="fab fa-youtube"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="contactUs">
+                    <div class="form-group">
+                        <label for="name" class="form-label">Full Name:</label>
+                        <input type="text" class="form-control form-control-lg" placeholder="Full Name" id="name">
+                    </div>
+                    <div class="form-group mt-3">
+                        <label for="email" class="form-label">Email:</label>
+                        <input type="email" class="form-control form-control-lg" placeholder="Email" id="email">
+                    </div>
+                    <div class="form-group mt-3">
+                        <label for="comment" class="form-label">Comment:</label>
+                        <textarea class="form-control form-control-lg" rows="8" id="comment" placeholder="Write your Message..."></textarea>
+                    </div>
+                    <input type="submit" class="submit btn mt-3 w-100">
+                </div>
+            </div>
+        </div>
+        
+
+
+
+    <script src="bootstrap-5.0.2-dist/js/bootstrap.min.js"></script>
+    <script>
+        function loadMore(){
+            document.getElementById('loadMore').style.display = "none";
+            document.getElementById('galleryLoader').style.display = "inline-block";
+        }
+    </script>
+
+</body>
+</html>
